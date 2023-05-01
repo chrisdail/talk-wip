@@ -7,10 +7,32 @@
   </head>
   <body>
     <script src="js/remark-0.15.0.min.js"></script>
+    <script src='https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML' type="text/javascript"></script>
     <script type="text/javascript">
       var slideshow = remark.create({
-        sourceUrl: 'slides.md',  
+        sourceUrl: 'slides.md',
+        ratio: '16:9',
       });
+
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+
+      // Setup MathJax - From https://gist.github.com/pinbo/e9dfe5f60ded913d0e94d1c8516a4149
+      MathJax.Hub.Config({
+          tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+      });
+      MathJax.Hub.Queue(function() {
+          $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+              return(elem.SourceElement());
+          }).parent().addClass('has-jax');
+      });
+
+      MathJax.Hub.Configured();
     </script>
   </body>
 </html>
