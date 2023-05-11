@@ -44,9 +44,7 @@ template: heading
 template: solo
 # One Task per Developer: Limits WIP
 
-Get more done 📈
-
-Get things done faster 📈
+Get more done and faster 📈
 
 Performance Penalities with High WIP
 
@@ -54,7 +52,7 @@ Performance Penalities with High WIP
 
 template: heading
 
-# Look at Some Data
+# Look at Some Evidence
 
 Interruptions
 
@@ -108,15 +106,35 @@ template: heading
 template: solo
 # Cycle Time
 
+Metric we track and try to improve
+
 Total calendar time taken to do a task
 
-Something we track and try to improve
+---
 
-Deliver value earlier / Fast feedback loops (to customers, between teams)
+template: solo
+# Effect of WIP on Cycle Time
+
+---
+
+![](images/cycle-time-no-totals.png)
 
 ---
 
 ![](images/cycle-time.png)
+
+---
+
+template: solo
+# Short Cycle Times
+
+Deliver value earlier
+
+Fast feedback loops (to customers, between teams)
+
+---
+
+![:scale 90%](images/feedback-loop.png)
 
 ---
 
@@ -125,11 +143,10 @@ template: heading
 
 ---
 
-
 template: solo
-# Geeky Math Part
+# Mathemtical Evidence
 
-Math Queue Theory
+Applying queue theory` to WIP
 
 ---
 
@@ -139,6 +156,7 @@ template: solo
 $$Cycle Time=\frac{WIP}{Throughput}$$
 
 Throughput - How many tasks completed in a timeframe
+
 Directly proportional
 
 ---
@@ -176,9 +194,11 @@ Increased cycle time due to increased work in progress
 template: solo
 # How to Reduce Cycle Time?
 
-Don't increase WIP
+Increase throughput
 
-Remove bottlenecks, increase throughput
+Decrease WIP
+
+Remove bottlenecks (like PR reviews)
 
 ---
 
@@ -190,15 +210,17 @@ template: heading
 template: solo
 # Personal Benefits to Limiting WIP
 
-Improved Focus, Improves Flow State
+Improved Focus and Flow State
 
-Decreased Cognative Load, Reduces Stress
+Decreased Cognative Load
+
+Reduces Stress
 
 
 ---
 
 template: left
-# Waiting for a Review
+# Next Time You are Blocked - Waiting for a Review
 
 What should you do?
 
@@ -206,15 +228,17 @@ What should you do?
 
 2. Review Code. If your team has none, review another team's code
 
-3. Review tech specs
+3. Re-review your own code
 
-4. Check tickets needing testing in dev/prod
+4. Review tech specs
 
-5. Check recent monitors and test failures
+5. Check tickets needing testing in dev/prod
 
-6. Test some recent things on dev/prod related to team work
+6. Check recent monitors and test failures
 
-7. ...
+7. Test some recent things on dev/prod related to team work
+
+8. ...
 
 ---
 
