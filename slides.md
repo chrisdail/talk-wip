@@ -51,7 +51,11 @@ Performance Penalities with High WIP
 ---
 
 template: heading
+# Look at Some Evidence
 
+---
+
+template: heading
 # Look at Some Evidence
 
 Interruptions
@@ -76,16 +80,37 @@ Research has shown it can take 10-15 minutes to get back into the "zone" after i
 
 Source: [Parnin:2010](http://www.chrisparnin.me/pdf/parnin-sqj11.pdf), [vanSolingen:1998](https://www.researchgate.net/publication/220093595_Interrupts_Just_a_Minute_Never_Is)
 
+
+---
+
+![](images/cowboy-duel.jpg)
+
+---
+
+![](images/victorian-duel.jpg)
+
+---
+
+template: solo
+# What is your Interruption Surface Area?
+
 ---
 
 template: heading
-
 # More WIP = More Opportunities for Interruption
 
 ---
 
 template: solo
 # Context Switching
+
+---
+
+template: solo
+
+![:scale 85%](images/thought-train.webp)
+
+# "I lost my train of thought"
 
 ---
 
@@ -113,6 +138,23 @@ Total calendar time taken to do a task
 ---
 
 template: solo
+# Short Cycle Times
+
+Deliver value earlier
+
+Fast feedback loops (to customers, between teams)
+
+---
+
+![:scale 90%](images/feedback-loop-no-time.png)
+
+---
+
+![:scale 90%](images/feedback-loop.png)
+
+---
+
+template: solo
 # Effect of WIP on Cycle Time
 
 ---
@@ -125,19 +167,6 @@ template: solo
 
 ---
 
-template: solo
-# Short Cycle Times
-
-Deliver value earlier
-
-Fast feedback loops (to customers, between teams)
-
----
-
-![:scale 90%](images/feedback-loop.png)
-
----
-
 template: heading
 # More WIP = Higher Cycle Time
 
@@ -146,7 +175,7 @@ template: heading
 template: solo
 # Mathemtical Evidence
 
-Applying queue theory` to WIP
+Applying queue theory to WIP
 
 ---
 
@@ -230,7 +259,7 @@ What should you do?
 
 3. Re-review your own code
 
-4. Review tech specs
+4. Review tech specs. Review tickets in backlog.
 
 5. Check tickets needing testing in dev/prod
 
@@ -242,6 +271,20 @@ What should you do?
 
 ---
 
+template: solo
+# 2h Left in the Day
+
+Instead of asking, what can I start next?
+
+Ask, what can I finish today?
+
+---
+
+template: heading
+# Ideal: One Task per Developer
+
+---
+
 template: heading
 # In Progress is the Enemy of Done
 
@@ -249,6 +292,7 @@ Stop Starting and Start Finishing
 
 ---
 
-BONUS
-improvements to CD
+template: heading
+
+# Questions
 
