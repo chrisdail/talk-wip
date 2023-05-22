@@ -173,9 +173,9 @@ template: heading
 ---
 
 template: solo
-# Mathemtical Evidence
+# Mathemtical Queue Theory
 
-Applying queue theory to WIP
+Applying **Little's Law** to WIP
 
 ---
 
@@ -271,17 +271,17 @@ What should you do?
 
 ---
 
+template: heading
+# Ideal: One Task per Developer
+
+---
+
 template: solo
 # 2h Left in the Day
 
 Instead of asking, what can I start next?
 
 Ask, what can I finish today?
-
----
-
-template: heading
-# Ideal: One Task per Developer
 
 ---
 
